@@ -7,9 +7,9 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   const [submenuOpen, setSubmenuOpen] = useState(false);
   return (
-    <nav className="z-[11] sticky top-0 p-4 shadow-xl bg-white">
+    <nav className="z-[11] sticky top-0 p-4 text-white ">
       <div className="container mx-auto p-1 relative">
-        <div className="md:flex md:justify-between md:items-center bg-white">
+        <div className="md:flex md:justify-between md:items-center">
           {/* first part */}
           <div className="flex items-center">
             <RiMenu2Fill
