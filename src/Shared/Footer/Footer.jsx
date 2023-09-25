@@ -34,7 +34,8 @@ const Footer = () => {
         <div>
           <p className="text-base md:text-lg font-bold">Follow us </p>
           <div className="mt-5">
-
+            <p className="mb-4">FAQs</p>
+            <p className="mb-4">Contact us</p>
           </div>
         </div>
       </div>
