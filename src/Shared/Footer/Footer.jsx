@@ -34,10 +34,14 @@ const Footer = () => {
         <div>
           <p className="text-base md:text-lg font-bold">Follow us </p>
           <div className="mt-5">
-            
+
           </div>
         </div>
       </div>
+      <div className="w-full h-[0.5px] bg-gray-400 mt-5" style={{
+        boxShadow: "0px 4px 30px 0px #4EE39D80"
+      }}></div>
+      <p className="text-xs md:text-sm text-center text-[#F7F6F2] mt-8">Copyright © 2023 GPT Guider All rights reserved</p>
     </div>
   )
 }
