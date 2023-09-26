@@ -13,6 +13,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
+            {/* All USERS */}
             <div>
                 <div className="mt-24 flex items-center">
                     <div className="flex">
