@@ -2,7 +2,7 @@
 const Hero = () => {
     return (
         <div className="container mx-auto mt-16 md:mt-28">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-4 md:mx-0">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-4 lg:mx-0">
                 <div className="text-white">
                     <h1 className="text-2xl md:text-4xl font-bold">Save Your Time <span className="text-[#35DC9D]">&</span> Study Faster</h1>
                     <div>
@@ -14,7 +14,7 @@ const Hero = () => {
                 </div>
             </div>
             {/* All USERS */}
-            <div>
+            <div className="mx-4 lg:mx-0">
                 <div className="mt-24 flex items-center">
                     <div className="flex">
                         <img className="w-[36px] h-[36px] rounded-full relative z-10" src="https://i.ibb.co/ssKPxsF/Avatar-Image.png" alt="" />

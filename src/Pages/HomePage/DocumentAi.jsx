@@ -4,10 +4,10 @@ import Title from "../../reUsable/Title";
 const DocumentAi = () => {
     return (
         <div className="container mx-auto mt-32">
-            <div className="md:flex items-center gap-16 mx-4 md:mx-0">
+            <div className="md:flex items-center gap-16 mx-4 lg:mx-0">
                 {/* IMAGE */}
                 <div>
-                    <img className="h-[370px] w-[370px] md:h-[570px] md:w-[570px]" src="https://i.ibb.co/KqtsvmP/Analysis-amico-image.png" alt="" />
+                    <img className="h-[370px] w-[370px] md:w-[500px] lg:h-[570px] lg:w-[570px]" src="https://i.ibb.co/KqtsvmP/Analysis-amico-image.png" alt="" />
                 </div>
                 {/* INFO */}
                 <div className="text-white">

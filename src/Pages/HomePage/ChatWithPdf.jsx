@@ -3,7 +3,7 @@ import Title from "../../reUsable/Title";
 const ChatWithPdf = () => {
     return (
         <div className="container mx-auto mt-32">
-            <div className="md:flex items-center gap-32 mx-4 md:mx-0">
+            <div className="md:flex items-center gap-32 mx-4 lg:mx-0">
                 {/* INFO */}
                 <div className="text-white">
                     <Title title="Chat With PDF" />
@@ -55,7 +55,7 @@ const ChatWithPdf = () => {
                 </div>
                 {/* IMAGE */}
                 <div>
-                    <img className="h-[292] w-[400px] md:h-[570px] md:w-[570px]" src="https://i.ibb.co/mh6NSh0/Chat-bot-pana-3.png" alt="" />
+                    <img className="h-[292] w-[400px] md:w-[570px] md:h-[500px] lg:h-[570px] lg:w-[570px]" src="https://i.ibb.co/mh6NSh0/Chat-bot-pana-3.png" alt="" />
                 </div>
             </div>
         </div>

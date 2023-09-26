@@ -3,7 +3,7 @@ import Title from "../../reUsable/Title";
 const Generator = () => {
     return (
         <div className="container mx-auto mt-32">
-            <div className="md:flex items-center gap-16 mx-4 md:mx-0">
+            <div className="md:flex items-center gap-16 mx-4 lg:mx-0">
                 {/* INFO */}
                 <div className="text-white">
                     <Title title="Questions & Answers Generator" />
@@ -18,7 +18,7 @@ const Generator = () => {
                 </div>
                 {/* IMAGE */}
                 <div>
-                    <img className="h-[370px] w-[370px] md:h-[500px] md:w-[700px]" src="https://i.ibb.co/HCLqBHG/Exams-bro-1.png" alt="" />
+                    <img className="h-[370px] w-[370px] md:w-[700px] lg:h-[500px] lg:w-[700px]" src="https://i.ibb.co/HCLqBHG/Exams-bro-1.png" alt="" />
                 </div>
             </div>
         </div>
