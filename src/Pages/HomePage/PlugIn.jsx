@@ -1,7 +1,8 @@
+import Title from "../../reUsable/Title";
 
 const PlugIn = () => {
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto mt-16">
             <div className="md:flex items-center gap-32 mx-4 md:mx-0">
                 {/* IMAGE */}
                 <div>
@@ -9,7 +10,7 @@ const PlugIn = () => {
                 </div>
                 {/* INFO */}
                 <div className="text-white">
-                    <h1 className="text-2xl md:text-4xl font-bold">Browsing Plugin</h1>
+                    <Title title="Browsing Plugin" />
                     <div className="mt-8">
                         <div className="flex items-center gap-4 mb-4">
                             <div className="w-[16px] h-[16px] rounded-full bg-gradient-to-t from-[#2CB49F] to-[#642CB6]"></div>
