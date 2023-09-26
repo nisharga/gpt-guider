@@ -1,3 +1,5 @@
+import AudioVideo from "./AudioVideo"
+import ChatWithPdf from "./ChatWithPdf"
 import DocumentAi from "./DocumentAi"
 import Hero from "./Hero"
 import PlugIn from "./PlugIn"
@@ -10,6 +12,8 @@ const HomePage = () => {
       <PlugIn />
       <Prof />
       <DocumentAi />
+      <ChatWithPdf />
+      <AudioVideo />
     </div>
   )
 }

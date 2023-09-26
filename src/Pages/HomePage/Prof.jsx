@@ -2,7 +2,7 @@ import Title from "../../reUsable/Title";
 
 const Prof = () => {
     return (
-        <div className="container mx-auto mt-16">
+        <div className="container mx-auto mt-32">
             <div className="md:flex items-center gap-32 mx-4 md:mx-0">
                 {/* INFO */}
                 <div className="text-white">

@@ -3,7 +3,7 @@ import Title from "../../reUsable/Title";
 
 const DocumentAi = () => {
     return (
-        <div className="container mx-auto mt-16">
+        <div className="container mx-auto mt-32">
             <div className="md:flex items-center gap-16 mx-4 md:mx-0">
                 {/* IMAGE */}
                 <div>
