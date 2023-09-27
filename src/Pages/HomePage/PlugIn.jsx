@@ -1,5 +1,6 @@
 import Title from "../../reUsable/Title";
 
+
 const PlugIn = () => {
     return (
         <div className="container mx-auto mt-32">

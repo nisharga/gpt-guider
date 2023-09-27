@@ -48,13 +48,21 @@ const Header = () => {
             </li>
           </ul>
           {/* third part */}
-          <div className="space-x-4 hidden md:block">
-            <button className="transition-all delay-100 duration-300 font-semibold text-white px-8 py-2 rounded-full bg-gradient-to-r from-[#00B6BD] to-[#ACFFAD]">
-              Signin
-            </button>
-            <button className="transition-all delay-100 duration-300 font-semibold text-white px-8 py-2 rounded-full bg-gradient-to-r from-[#00B6BD] to-[#ACFFAD]">
-              Signup
-            </button>
+          <div className="hidden md:block">
+            <div className="flex items-center gap-4">
+              <div className="bg-gradient-to-r from-[#00B6BD] to-[#ACFFAD] rounded-full p-[1px] ">
+                <div className="bg-[#07091E] rounded-full">
+                  <button className="transition-all delay-100 duration-300 font-semibold text-white px-8 py-2 rounded-full ">
+                    Signin
+                  </button>
+                </div>
+              </div>
+              <div>
+                <button className="transition-all delay-100 duration-300 font-semibold text-white px-8 py-2 rounded-full bg-gradient-to-r from-[#00B6BD] to-[#ACFFAD]">
+                  Signup
+                </button>
+              </div>
+            </div>
           </div>
         </div>
         {/* mobile navbar */}
