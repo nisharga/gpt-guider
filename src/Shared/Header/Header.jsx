@@ -7,7 +7,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   const [submenuOpen, setSubmenuOpen] = useState(false);
   return (
-    <nav className="z-[11] sticky top-0 p-4 text-white ">
+    <nav className="z-[60] sticky top-0 p-4 text-white bg-[#07091E] ">
       <div className="container mx-auto p-1 relative">
         <div className="md:flex md:justify-between md:items-center">
           {/* first part */}
