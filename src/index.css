@@ -16,7 +16,7 @@ body {
 .first-div {
     width: 360px;
     height: 360px;
-    background: linear-gradient(#642CB6,  #2CB49F);
+    background: linear-gradient(#642CB6, #2CB49F);
     border-radius: 15%;
 }
 
@@ -26,4 +26,25 @@ body {
     border-radius: 15%;
     margin-left: 2px;
     margin-top: 2px;
+}
+
+.circle {
+    width: 50px;
+    height: 450px;
+    background: linear-gradient(to bottom, #3A1078 25%, #7449e0 50%);
+    filter: blur(120px);
+}
+.circleTwo {
+    width: 50px;
+    height: 450px;
+    background: linear-gradient(to bottom, #3A1078 25%, #7449e0 50%);
+    filter: blur(120px);
+    right: 0;
+}
+.circleThree {
+    width: 450px;
+    height: 30px;
+    background: linear-gradient(to bottom, #3A1078 25%, #7449e0 50%);
+    filter: blur(120px);
+    bottom: -100px;
 }
