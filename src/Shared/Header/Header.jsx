@@ -53,6 +53,7 @@ const Header = () => {
               </span>
             </li>
           </ul>
+<<<<<<< HEAD
           {/* third part space-x-4 hidden md:block */}
           <div className="hidden md:flex space-x-4"> 
             <div className="text-lg font-bold mt-2 uppercase">{user?.displayName}</div>
@@ -69,6 +70,24 @@ const Header = () => {
                 }
                 {/* conditioning outLout and SignIn button*/}
              </div>
+=======
+          {/* third part */}
+          <div className="hidden md:block">
+            <div className="flex items-center gap-4">
+              <div className="bg-gradient-to-r from-[#00B6BD] to-[#ACFFAD] rounded-full p-[1px] ">
+                <div className="bg-[#07091E] rounded-full">
+                  <button className="transition-all delay-100 duration-300 font-semibold text-white px-8 py-2 rounded-full ">
+                    Signin
+                  </button>
+                </div>
+              </div>
+              <div>
+                <button className="transition-all delay-100 duration-300 font-semibold text-white px-8 py-2 rounded-full bg-gradient-to-r from-[#00B6BD] to-[#ACFFAD]">
+                  Signup
+                </button>
+              </div>
+            </div>
+>>>>>>> 9f64a950d6e82529d98e97ade3066dbef661c1b4
           </div>
         </div>
         {/* mobile navbar */}
